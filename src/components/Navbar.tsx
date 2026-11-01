@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative z-50 w-full border-b border-gray-100 bg-white">
+    <header className="z-50 w-full border-b border-gray-100 bg-white fixed">
       <nav className="mx-auto flex h-[78px] max-w-[1450px] items-center justify-between px-5 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5">

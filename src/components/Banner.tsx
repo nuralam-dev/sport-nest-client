@@ -16,7 +16,7 @@ const stats = [
 
 export default function Banner() {
   return (
-    <section className="relative flex min-h-[500px] items-center justify-center overflow-hidden bg-[#142a1c] px-5 py-10 text-white md:px-8">
+    <section className="mt-20 relative flex min-h-[500px] items-center justify-center overflow-hidden bg-[#142a1c] px-5 py-10 text-white md:px-8">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
